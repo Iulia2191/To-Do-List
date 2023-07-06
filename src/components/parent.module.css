@@ -3,8 +3,11 @@
   text-align: center;
   margin: 30px;
   margin-bottom: 50px;
-  color: rgb(20, 109, 101);
   font-weight: 600;
+  background: linear-gradient(120deg, #037e78, #d2d0d6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .input {
