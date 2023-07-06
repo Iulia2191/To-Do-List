@@ -1,0 +1,18 @@
+.imagine {
+  width: 500px;
+  height: 600px;
+  margin-right: 150px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.paragraf {
+  margin-left: 150px;
+  font-size: 18px;
+}
+.welcome {
+  margin-top: 50px;
+  text-align: center;
+}

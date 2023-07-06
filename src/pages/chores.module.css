@@ -1,0 +1,16 @@
+.chore {
+  text-align: center;
+  margin: 50px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.border {
+  margin-top: 80px;
+  border: 1px solid #146d65;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.family {
+  width: 400px;
+  height: 400px;
+}

@@ -1,0 +1,15 @@
+.title {
+  color: rgb(20, 109, 101);
+  margin: 30px;
+  text-align: center;
+}
+
+.paragraf {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+  margin-bottom: 40vh;
+}
+.container {
+  display: flex;
+}
