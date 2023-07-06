@@ -21,9 +21,13 @@ export function Chores () {
         <h4 className={styles.chore}>{chore.title}</h4>
         <p className='mx-5 my-5 text-center h4'>
           {chore.completed ? (
-            <span className='text-primary'>Chore is complete &#128077;</span>
+            <span className='text-primary'>
+              This chore is complete &#128077;
+            </span>
           ) : (
-            <span className='text-danger'>Chore is not complete &#128078;</span>
+            <span className='text-danger'>
+              This chore is not complete &#128078;
+            </span>
           )}
         </p>
       </div>
