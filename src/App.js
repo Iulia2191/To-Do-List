@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { useReducer } from 'react'
 import { Home } from './pages/Home'
 import { About } from './pages/About'
 import { Todo } from './pages/Todo'
@@ -6,25 +7,43 @@ import { Page404 } from './pages/Page404'
 import { Header } from './components/Header'
 import { Chores } from './pages/Chores'
 import { Footer } from './components/Footer'
+import { Priority } from './pages/Priority'
+import {
+  initialState as priorityInitialState,
+  priorityReducer
+} from './store/Priority/reducer'
+import { PriorityContext } from './store/Priority/context'
 import './App.css'
 
 export default function App () {
-  return (
-    <div>
-      <div>
-        <Header />
-      </div>
+  const [priorityState, priorityDispatch] = useReducer(
+    priorityReducer,
+    priorityInitialState
+  )
+  const priorityContextValue = {
+    priorityState,
+    priorityDispatch
+  }
 
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/todo' element={<Todo />} />
-        <Route path='/chores/:id' element={<Chores />} />
-        <Route path='*' element={<Page404 />} />
-      </Routes>
+  return (
+    <PriorityContext.Provider value={priorityContextValue}>
       <div>
-        <Footer />
+        <div>
+          <Header />
+        </div>
+
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/todo' element={<Todo />} />
+          <Route path='/chores/:id' element={<Chores />} />
+          <Route path='/priority' element={<Priority />} />
+          <Route path='*' element={<Page404 />} />
+        </Routes>
+        <div>
+          <Footer />
+        </div>
       </div>
-    </div>
+    </PriorityContext.Provider>
   )
 }

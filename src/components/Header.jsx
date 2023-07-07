@@ -18,6 +18,9 @@ export function Header () {
         <Link className={styles.link} to='/todo'>
           ToDo
         </Link>
+        <Link className={styles.link} to='/priority'>
+          Priority
+        </Link>
       </div>
     </header>
   )
