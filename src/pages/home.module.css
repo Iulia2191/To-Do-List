@@ -1,11 +1,11 @@
 .imagine {
+  margin-right: 150px;
   width: 500px;
   height: 600px;
-  margin-right: 150px;
 }
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .paragraf {
@@ -15,4 +15,24 @@
 .welcome {
   margin-top: 50px;
   text-align: center;
+}
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  font-weight: bolder;
+}
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .paragraf {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  .imagine {
+    margin-top: 20px;
+    margin-right: 0;
+  }
 }

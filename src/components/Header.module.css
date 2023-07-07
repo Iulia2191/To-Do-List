@@ -19,9 +19,6 @@
   text-decoration: none;
   display: flex;
   justify-content: center;
-  font-size: larger;
-}
-.lady {
-  width: 100px;
-  height: 100px;
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
 }

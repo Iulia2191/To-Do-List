@@ -8,8 +8,25 @@
   margin-left: 50px;
   margin-right: 50px;
   font-size: 20px;
-  margin-bottom: 40vh;
 }
 .container {
   display: flex;
+  margin-bottom: 200px;
+}
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .paragraf {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .imagine {
+    margin-top: 0;
+    width: 50%;
+    align-self: end;
+  }
 }

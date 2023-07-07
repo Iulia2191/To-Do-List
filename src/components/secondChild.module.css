@@ -4,3 +4,8 @@
   border: 1px solid #99cccc;
   border-radius: 25px;
 }
+@media (max-width: 768px) {
+  .input {
+    margin: 0;
+  }
+}

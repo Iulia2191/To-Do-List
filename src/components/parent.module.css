@@ -4,7 +4,7 @@
   margin: 30px;
   margin-bottom: 50px;
   font-weight: 600;
-  background: linear-gradient(120deg, #037e78, #d2d0d6);
+  background: linear-gradient(120deg, #037e78, #8dbdc9, #2e3897);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -14,4 +14,9 @@
   font-size: 20px;
   margin-left: 150px;
   margin-top: 60px;
+}
+@media (max-width: 1200px) {
+  .input {
+    margin: 10px;
+  }
 }

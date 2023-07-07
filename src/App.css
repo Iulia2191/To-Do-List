@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 body {
-  /* background: linear-gradient(120deg, #70e1f5, #ffd194); */
   letter-spacing: 1.5px;
   min-height: 100vh;
+}
+html,
+body {
+  overflow-x: hidden;
 }

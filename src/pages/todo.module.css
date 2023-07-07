@@ -15,7 +15,6 @@
 }
 .link:hover {
   color: rgb(9, 219, 198);
-  background-color: rgb(10, 94, 89);
 }
 .title {
   color: #99cccc;
@@ -35,4 +34,19 @@
   width: 30%;
   align-self: center;
   margin-top: 10px;
+  background-color: #99cccc !important;
+  border: none !important;
+}
+@media (max-width: 1200px) {
+  .aligment {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .list {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  .button {
+    width: 50%;
+  }
 }
