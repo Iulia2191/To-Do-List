@@ -30,30 +30,35 @@ export function Chores () {
         <h4 className={styles.chore}>{chore.title}</h4>
         <p className='mx-5 my-5 text-center h4'>
           {chore.completed ? (
-            <span className='text-primary'>
-              This chore is complete &#128077;
-            </span>
+            <div>
+              <span className='text-primary'>
+                This chore is complete &#128077;
+              </span>
+            </div>
           ) : (
-            <span className='text-danger'>
-              This chore is not complete &#128078;
-            </span>
+            <div>
+              <span className='text-danger'>
+                This chore is not complete &#128078;
+              </span>
+              <br></br>
+              <Button
+                className={styles.button}
+                variant='success'
+                onClick={() => {
+                  handleAddToPriority({
+                    id: chore.id,
+                    title: chore.title
+                  })
+                }}
+              >
+                Add to Priority
+              </Button>
+            </div>
           )}
         </p>
-        <Button
-          className={styles.button}
-          variant='success'
-          onClick={() => {
-            handleAddToPriority({
-              id: chore.id,
-              title: chore.title
-            })
-          }}
-        >
-          Add to Priority
-        </Button>
       </div>
       <div className='text-center'>
-        <img className={styles.family} src={family} alt='Family'></img>
+        <img className={styles.family} src={family} alt='Family' />
       </div>
     </div>
   )
