@@ -22,9 +22,7 @@ export function Priority () {
           <h4>Your Chores:</h4>
           {priorityState.chores.map(chore => (
             <div key={chore.id}>
-              <Link className={styles.link} to={`/chores/${chore.id}`}>
-                {chore.title}
-              </Link>
+              <Link to={`/chores/${chore.id}`}>{chore.title}</Link>
               <Button
                 variant='danger'
                 onClick={() => handleRemoveChore(chore.id)}
