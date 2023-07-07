@@ -1,11 +1,15 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import styles from './chores.module.css'
 import family from '../family.png'
+import Button from 'react-bootstrap/Button'
+import { PriorityContext } from '../store/Priority/context'
+import { addToPriority } from '../store/Priority/actions'
 
 export function Chores () {
   const { id } = useParams()
   const [chore, setChore] = useState({})
+  const { priorityDispatch } = useContext(PriorityContext)
 
   useEffect(() => {
     fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
@@ -14,6 +18,11 @@ export function Chores () {
         setChore(data)
       })
   }, [id])
+
+  function handleAddToPriority (chore) {
+    const actionResult = addToPriority(chore)
+    priorityDispatch(actionResult)
+  }
 
   return (
     <div>
@@ -30,6 +39,18 @@ export function Chores () {
             </span>
           )}
         </p>
+        <Button
+          className={styles.button}
+          variant='success'
+          onClick={() => {
+            handleAddToPriority({
+              id: chore.id,
+              title: chore.title
+            })
+          }}
+        >
+          Add to Priority
+        </Button>
       </div>
       <div className='text-center'>
         <img className={styles.family} src={family} alt='Family'></img>

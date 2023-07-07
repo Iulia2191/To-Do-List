@@ -30,16 +30,7 @@
   border: 1px solid #99cccc;
   padding: 10px;
 }
-.button {
-  width: 30%;
-  align-self: center;
-  margin-top: 10px;
-  background-color: #99cccc !important;
-  border: none !important;
-}
-.button:hover {
-  background-color: #54928fe3 !important;
-}
+
 @media (max-width: 1200px) {
   .aligment {
     margin-left: 10px;

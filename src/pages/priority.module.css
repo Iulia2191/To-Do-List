@@ -9,3 +9,25 @@
   font-size: 20px;
   color: black;
 }
+
+.link {
+  margin-top: 20px;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #42baca;
+  display: list-item;
+  list-style: square;
+  list-style-position: inside;
+}
+.container {
+  border: 1px solid #42baca;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin: 10px;
+}
+.button {
+  margin-bottom: 10px;
+  background-color: #34818b !important;
+  border: none !important;
+}

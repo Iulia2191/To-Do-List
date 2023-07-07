@@ -1,19 +1,32 @@
 .chore {
   text-align: center;
-  margin: 50px;
+  margin: 30px;
   font-size: 30px;
   text-transform: capitalize;
 }
 .border {
-  margin-top: 80px;
+  margin-top: 30px;
   border: 1px solid #99cccc;
   margin-left: 250px;
   margin-right: 250px;
+  display: flex;
+  flex-direction: column;
 }
 .family {
   width: 400px;
   height: 400px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+}
+.button {
+  width: 30%;
+  margin-top: 10px;
+  background-color: #99cccc !important;
+  border: none !important;
+  align-self: center;
+  margin-bottom: 10px;
+}
+.button:hover {
+  background-color: #54928fe3 !important;
 }
 
 @media (max-width: 1200px) {
