@@ -15,7 +15,7 @@
 .family {
   width: 400px;
   height: 400px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
 }
 .button {
   width: 30%;
@@ -40,7 +40,7 @@
   }
 
   .imagine {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-right: 0;
   }
 }

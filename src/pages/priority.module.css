@@ -15,10 +15,13 @@
   font-size: 25px;
   text-decoration: none;
   text-transform: capitalize;
-  color: #42baca;
+  color: black;
   display: list-item;
   list-style: square;
   list-style-position: inside;
+}
+.link:hover {
+  color: #34818b;
 }
 .container {
   border: 1px solid #42baca;
