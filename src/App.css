@@ -3,6 +3,8 @@
 body {
   letter-spacing: 1.5px;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 html,
 body {

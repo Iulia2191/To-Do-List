@@ -27,7 +27,7 @@ export default function App () {
 
   return (
     <PriorityContext.Provider value={priorityContextValue}>
-      <div>
+      <div className='d-flex flex-column'>
         <div>
           <Header />
         </div>

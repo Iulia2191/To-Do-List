@@ -1,8 +1,10 @@
 .priority {
-  height: 67vh;
+  height: max-content;
+  min-height: 55vh;
   margin-top: 100px;
   font-size: 30px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .h4 {
