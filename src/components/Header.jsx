@@ -21,6 +21,9 @@ export function Header () {
         <Link className={styles.link} to='/priority'>
           Priority
         </Link>
+        <Link className={styles.link} to='/contact'>
+          Contact
+        </Link>
       </div>
     </header>
   )

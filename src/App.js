@@ -14,6 +14,7 @@ import {
 } from './store/Priority/reducer'
 import { PriorityContext } from './store/Priority/context'
 import './App.css'
+import Contact from './pages/Contact'
 
 export default function App () {
   const [priorityState, priorityDispatch] = useReducer(
@@ -38,6 +39,7 @@ export default function App () {
           <Route path='/todo' element={<Todo />} />
           <Route path='/chores/:id' element={<Chores />} />
           <Route path='/priority' element={<Priority />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<Page404 />} />
         </Routes>
         <div>
