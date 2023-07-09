@@ -3,9 +3,9 @@
   flex-direction: column;
   width: 50%;
   justify-content: center;
-  margin-left: 300px;
+
   height: max-content;
-  min-height: 80vh;
+  min-height: 76vh;
 }
 .input {
   margin-top: 20px;

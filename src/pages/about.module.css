@@ -11,8 +11,8 @@
 }
 .container {
   display: flex;
-  /* margin-bottom: 200px; */
   height: max-content;
+  min-height: 65vh;
 }
 @media (max-width: 1200px) {
   .container {
