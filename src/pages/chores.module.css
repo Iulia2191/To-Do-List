@@ -15,7 +15,7 @@
 .family {
   width: 400px;
   height: 400px;
-  margin-bottom: 90px;
+  margin-bottom: 20px;
 }
 .button {
   width: 30%;
@@ -28,7 +28,7 @@
   background-color: #54928fe3 !important;
 }
 .container {
-  min-height: 85vh;
+  min-height: 81vh;
 }
 @media (max-width: 1200px) {
   .border {
