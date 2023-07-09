@@ -1,12 +1,14 @@
 .imagine {
   margin-right: 30px;
-  width: 500px;
-  height: 600px;
+  width: 100%px;
+  height: 400px;
+  object-fit: cover;
 }
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  min-height: 44vh;
 }
 .paragraf1 {
   font-size: 18px;

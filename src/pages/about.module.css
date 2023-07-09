@@ -6,11 +6,18 @@
 
 .paragraf {
   margin-left: 50px;
-  margin-right: 50px;
   font-size: 20px;
+  margin-left: 50px;
+}
+.imagine {
+  width: 40%;
+  margin-right: 50px;
 }
 .container {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   height: max-content;
   min-height: 70vh;
 }
@@ -24,10 +31,5 @@
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  .imagine {
-    margin-top: 0;
-    width: 40%;
-    align-self: end;
   }
 }

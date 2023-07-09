@@ -1,6 +1,6 @@
 import { Parent } from '../components/Parent'
 import styles from './home.module.css'
-import imagine from '../imagine.png'
+import meditating from '../meditating.jpg'
 export function Home () {
   return (
     <div className={styles.background}>
@@ -24,15 +24,9 @@ export function Home () {
             vero eros et accumsan et iusto odio dignissim qui blandit praesent
             luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
           </p>
-          <p className={styles.paragraf1}>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
-          </p>
         </div>
         <div>
-          <img className={styles.imagine} src={imagine} />
+          <img className={styles.imagine} src={meditating} />
         </div>
       </div>
     </div>
