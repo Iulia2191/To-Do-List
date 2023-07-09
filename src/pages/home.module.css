@@ -8,6 +8,11 @@
   justify-content: space-around;
   align-items: center;
 }
+.paragraf1 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
 .paragraf {
   margin-left: 150px;
   font-size: 18px;

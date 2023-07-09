@@ -1,5 +1,5 @@
 .background {
-  background-color: rgb(27, 27, 29);
+  background-color: rgb(40, 40, 44);
   color: whitesmoke;
   text-decoration: none;
   display: flex;
@@ -14,7 +14,7 @@
 }
 .logo {
   padding-top: 10px;
-  background-color: rgb(27, 27, 29);
+  background-color: rgb(40, 40, 44);
   color: whitesmoke;
   text-decoration: none;
   display: flex;
