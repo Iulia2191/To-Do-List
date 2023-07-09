@@ -12,7 +12,7 @@
 .container {
   display: flex;
   height: max-content;
-  min-height: 65vh;
+  min-height: 70vh;
 }
 @media (max-width: 1200px) {
   .container {

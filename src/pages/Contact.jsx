@@ -42,7 +42,11 @@ export default function Contact () {
         />
         {errors.email && <span>Please enter a valid email address.</span>}
 
-        <textarea className={styles.input} {...register('message')} />
+        <textarea
+          placeholder='Message...'
+          className={styles.input}
+          {...register('message')}
+        />
 
         <input className={styles.button} type='submit' />
       </form>

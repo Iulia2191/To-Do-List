@@ -25,7 +25,7 @@ export function Chores () {
   }
 
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.border}>
         <h4 className={styles.chore}>{chore.title}</h4>
         <p className='mx-5 my-5 text-center h4'>

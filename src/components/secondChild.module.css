@@ -2,7 +2,7 @@
   background-color: transparent;
   margin: 10px;
   border: 1px solid #99cccc;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 @media (max-width: 768px) {
   .input {

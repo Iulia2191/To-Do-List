@@ -27,7 +27,9 @@
 .button:hover {
   background-color: #54928fe3 !important;
 }
-
+.container {
+  min-height: 85vh;
+}
 @media (max-width: 1200px) {
   .border {
     margin-left: 20px;
