@@ -11,7 +11,8 @@
 }
 .container {
   display: flex;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
+  height: max-content;
 }
 @media (max-width: 1200px) {
   .container {
