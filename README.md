@@ -2,9 +2,11 @@ ChoreMaster is a web application that I developed during the Web Development cou
 
 
 Technologies Used:
-React
-React Router
-React Bootstrap
-State management with React Context and Reducer
-REST API integration for chore data
-CSS Modules for styling
+React,
+React Router,
+React Bootstrap,
+State management with React Context and Reducer,
+REST API integration for chore data,
+CSS Modules for styling.
+
+https://proiect-todo-list.netlify.app/
