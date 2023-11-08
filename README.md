@@ -1,4 +1,4 @@
-ChoreMaster is a web application that I developed during the Web Development course at IT School. This project is designed to help users manage their daily chores and to-do lists more efficiently. The chore list is dynamically fetched from an external API, providing real-time data for users.
+Todo List is a web application that I developed during the Web Development course at IT School. This project is designed to help users manage their daily chores and to-do lists more efficiently. The chore list is dynamically fetched from an external API, providing real-time data for users.
 
 
 Technologies Used:
